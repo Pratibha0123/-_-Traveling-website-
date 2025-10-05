@@ -1,37 +1,75 @@
-import React from 'react'
-import './Destination.css'
-import kerala from './kerala.jpg'
-import pic from './3.jpeg'
+// import Slider from 'react-slick'; 
+// import './Destination.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
-const Destination = () => {
-  return (
-    <div>
-      <h1 className="heading">Destination</h1>
-    
-      <div className="hero">
-       <div className="hero-left">
-        <p >Cruising along the backwaters of Kerala is an unforgettable experience. If you have not experienced it, here is a golden opportunity to do it at a fraction of its original cost. You could get in any House Boat of your liking, saunter down the cool placid waters of our world-famous backwaters, have a merry time and get back home either the same day or after spending a night as well out floating around.</p>
-        </div>
+// import destinationImg1 from '../../assets/images/destinations1.png';
+// import destinationImg2 from '../../assets/images/destinations2.png';
+// import destinationImg3 from '../../assets/images/destinations3.png';
+// import destinationImg4 from '../../assets/images/destinations4.png';
+// import destinationImg5 from '../../assets/images/destinations5.png';
+// import destinationImg6 from '../../assets/images/destinations6.png';
+// import destinationImg7 from '../../assets/images/destinations7.png';
+// import destinationImg8 from '../../assets/images/destinations8.png';
+// import destinationImg9 from '../../assets/images/destinations9.png';
+// import destinationImg10 from '../../assets/images/destinations10.png';
+// import destinationImg11 from '../../assets/images/destinations11.png';
+// import destinationImg12 from '../../assets/images/destinations5.jpeg';
 
-        <div className="hero-right">
-        <img src={kerala} alt="" />
-        </div>
+// const destinations = [
+//   { id: 1, img: destinationImg1, text: 'Cruising along the backwaters of Kerala is an unforgettable experience.' },
+//   { id: 2, img: destinationImg2, text: 'Visit the iconic Taj Mahal in Agra, a symbol of eternal love.' },
+//   { id: 3, img: destinationImg3, text: 'Explore the majestic Himalayas Himachal and Uttarakhand.' },
+//   { id: 4, img: destinationImg4, text: 'Discover the rich history and architecture of the Pink City, Jaipur.' },
+//   { id: 5, img: destinationImg5, text: 'Experience spiritual India at the ghats of Varanasi on the banks of the Ganges.' },
+//   { id: 6, img: destinationImg6, text: 'Marvel at the serene beauty of the tea gardens in Darjeeling.' },
+//   { id: 7, img: destinationImg7, text: 'Relax on the beaches of Goa, known for its vibrant nightlife and Portuguese heritage.' },
+//   { id: 8, img: destinationImg8, text: 'Explore the backwaters of Alleppey on a traditional houseboat.' },
+//   { id: 9, img: destinationImg9, text: 'Soak in the culture and cuisine of Hyderabad, the City of Pearls.' },
+//   { id: 10, img: destinationImg10, text: 'Wander through the ruins of Hampi, a UNESCO World Heritage Site.' },
+//   { id: 11, img: destinationImg11, text: 'Admire the colonial architecture and cafes of Pondicherry.' },
+//   { id: 12, img: destinationImg12, text: 'Enjoy a tranquil stay in the valleys of Munnar.' }
+// ];
 
-        
-      </div>
-      <div className="hero" >
-       <div className="hero-left">
-        <p >Cruising along the backwaters of Kerala is an unforgettable experience. If you have not experienced it, here is a golden opportunity to do it at a fraction of its original cost. You could get in any House Boat of your liking, saunter down the cool placid waters of our world-famous backwaters, have a merry time and get back home either the same day or after spending a night as well out floating around.</p>
-        </div>
+// const Destination = () => {
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 700,
+//     slidesToShow: 2,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 3000,
+//     arrows: false,
+//     responsive: [
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 1
+//         }
+//       }
+//     ]
+//   };
 
-        <div className="hero-right">
-        <img src={pic} alt="" />
-        </div>
+//   return (
+//     <div className="destination-slider-container">
+//       <h1 className="destination-heading">Top Indian Destinations</h1>
+//       <Slider {...settings}>
+//         {destinations.map((item) => (
+//           <div key={item.id} className="destination-slide">
+//             <div className="destination-card">
+//               <img
+//                 src={item.img}
+//                 alt="destination"
+//                 className="destination-image"
+//               />
+//               <p className="destination-text">{item.text}</p>
+//             </div>
+//           </div>
+//         ))}
+//       </Slider>
+//     </div>
+//   );
+// };
 
-        
-      </div>
-    </div>
-  )
-}
-
-export default Destination
+// export default Destination;

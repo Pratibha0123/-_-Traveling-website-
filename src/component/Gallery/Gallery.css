@@ -32,7 +32,6 @@
     transition: transform 0.3s ease;
     background: white;
     aspect-ratio: 4 / 3;
-    /* keeps same ratio for all */
 }
 
 .gallery-img {
@@ -65,9 +64,6 @@
     transform: translateY(0);
 }
 
-
-/* 📱 Mobile */
-
 @media (max-width: 480px) {
     .gallery-title {
         font-size: 1.6rem;
@@ -78,17 +74,12 @@
     }
     .gallery-grid {
         grid-template-columns: 1fr;
-        /* ✅ 1 column */
         gap: 15px;
     }
     .gallery-card {
         aspect-ratio: 1 / 1;
-        /* ✅ square images on small mobile */
     }
 }
-
-
-/* 📱 Tablet */
 
 @media (min-width: 481px) and (max-width: 1024px) {
     .gallery-title {
@@ -100,11 +91,9 @@
     }
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
-        /* ✅ 2 columns */
         gap: 18px;
     }
     .gallery-card {
         aspect-ratio: 4 / 3;
-        /* ✅ rectangle on tablet */
     }
 }

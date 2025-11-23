@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -12,7 +12,6 @@ const SearchForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ideally, perform search and redirect to results page with the results
     history.push('/results');
   };
 

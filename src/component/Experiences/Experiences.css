@@ -72,9 +72,6 @@
     line-height: 1.5;
 }
 
-
-/* 📱 Tablet */
-
 @media (max-width: 1024px) {
     .experiences-title {
         font-size: 2rem;
@@ -86,9 +83,6 @@
         font-size: 0.95rem;
     }
 }
-
-
-/* 📱 Mobile */
 
 @media (max-width: 768px) {
     .experiences-title {
@@ -109,13 +103,9 @@
     }
 }
 
-
-/* 🔹 Small Mobile */
-
 @media (max-width: 480px) {
     .experiences-grid {
         grid-template-columns: 1fr;
-        /* single column */
         gap: 1.5rem;
     }
     .experience-image {

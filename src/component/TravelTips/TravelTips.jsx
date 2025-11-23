@@ -1,5 +1,4 @@
 import './TravelTips.css';
-// import image1 from '../../assets'
 
 const TravelTips = () => {
   const tips = [

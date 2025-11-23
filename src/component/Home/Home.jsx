@@ -11,7 +11,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div>
-     <Header /> 
+    <Header /> 
     < DestinationPage/>
     <Gallery/>
     <Experiences/>
